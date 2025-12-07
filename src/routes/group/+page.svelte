@@ -306,6 +306,14 @@
 				>
 					view your article
 				</button>
+			{:else if !isCurrentUserOnDeck && onDeck.submitted}
+				<button 
+					class="view-button on-deck-view"
+					type="button"
+					on:click={() => viewArticle(onDeck.articleId)}
+				>
+					read article
+				</button>
 			{/if}
 		</section>
 
