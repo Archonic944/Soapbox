@@ -601,7 +601,7 @@
 		font-size: 36px;
 		line-height: 52px;
 		text-align: center;
-		background: linear-gradient(270deg, rgba(168, 181, 151, 0.53) -23.59%, #44FF00 100%);
+		background: linear-gradient(270deg, rgba(90, 90, 90, 0.59) -23.59%, rgb(122, 121, 121) 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
